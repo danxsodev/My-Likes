@@ -1,0 +1,119 @@
+$primary-color: #9572FC;
+$secondary-color: #43E7AD;
+$nav-scroll-color: #1212122a;
+$section-color: #2A2634;
+$paragraph-color: #A1A1AA;
+
+:root {
+    font-size: 62.5%;
+}
+
+/*GERAL*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    background-color: $primary-color;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: default;
+}
+
+img {
+    cursor: pointer;
+}
+
+/*NAV*/
+nav.scroll {
+    background-color: $nav-scroll-color;
+}
+
+div.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*HEADER*/
+header {
+    padding-top: 3.2rem;
+    height: calc(12rem + 3.2rem);
+}
+
+header span img {
+    width: 12rem;
+    margin-block: auto;
+    margin-inline: auto;
+    background-image: linear-gradient(90deg, $secondary-color 25%, $secondary-color 50.52%);
+    border-radius: 50%;
+    display: flex;
+    padding: 0.4rem;
+    transition: transform .3s;
+}
+
+header span img:hover {
+    transform: scale(1.1)
+}
+
+/*MAIN*/
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 3.2rem 1.6rem;
+    gap: 2rem;
+}
+
+section#films {
+    color: white;
+    background-image: linear-gradient(90deg, $secondary-color 25%, $primary-color 50.52%);
+    padding-top: 0.4rem;
+    border-radius: 10rem;
+}
+
+section#films div.content {
+    background-color: $section-color;
+    padding: 3.2rem;
+    padding-top: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+div.content h2 {
+    letter-spacing: -0.4rem;
+}
+
+div.content p {
+    letter-spacing: -0.2rem;
+    color: $paragraph-color;
+}
+
+div.content ul.films-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+div.content ul.films-list a li {
+    transition: transform .3s ease-in;
+}
+
+div.content .films-list img {
+    width: 25%;
+    border-radius: 0.8rem;
+}
+
+div.content ul.films-list img:hover {
+    transform: scale(1.1)
+}
