@@ -13,10 +13,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
     font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     background-color: $primary-color;
     overflow-x: hidden;
+    scroll-behavior: smooth ease .3s;
 }
 
 ul li {
@@ -117,4 +120,235 @@ div.content .films-list img {
 
 div.content ul.films-list img:hover {
     transform: scale(1.1)
+}
+
+section#series {
+    color: white;
+    background-image: linear-gradient(90deg, $secondary-color 25%, $primary-color 50.52%);
+    padding-top: 0.4rem;
+    border-radius: 10rem;
+}
+
+section#series div.content {
+    background-color: $section-color;
+    padding: 3.2rem;
+    padding-top: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+div.content h2 {
+    letter-spacing: -0.4rem;
+}
+
+div.content p {
+    letter-spacing: -0.2rem;
+    color: $paragraph-color;
+}
+
+div.content ul.series-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+div.content ul.series-list a li {
+    transition: transform .3s ease-in;
+}
+
+div.content .series-list img {
+    width: 25%;
+    border-radius: 0.8rem;
+}
+
+div.content ul.series-list img:hover {
+    transform: scale(1.1)
+}
+
+section#games {
+    color: white;
+    background-image: linear-gradient(90deg, $secondary-color 25%, $primary-color 50.52%);
+    padding-top: 0.4rem;
+    border-radius: 10rem;
+}
+
+section#games div.content {
+    background-color: $section-color;
+    padding: 3.2rem;
+    padding-top: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+div.content h2 {
+    letter-spacing: -0.4rem;
+}
+
+div.content p {
+    letter-spacing: -0.2rem;
+    color: $paragraph-color;
+}
+
+div.content ul.games-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+div.content ul.games-list a li {
+    transition: transform .3s ease-in;
+}
+
+div.content .games-list img {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0.8rem;
+}
+
+div.content ul.games-list img:hover {
+    transform: scale(1.1)
+}
+
+section#streaming {
+    color: white;
+    background-image: linear-gradient(90deg, $secondary-color 25%, $primary-color 50.52%);
+    padding-top: 0.4rem;
+    border-radius: 10rem;
+}
+
+section#streaming div.content {
+    background-color: $section-color;
+    padding: 3.2rem;
+    padding-top: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+div.content h2 {
+    letter-spacing: -0.4rem;
+}
+
+div.content p {
+    letter-spacing: -0.2rem;
+    color: $paragraph-color;
+}
+
+div.content ul.streaming-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+div.content ul.streaming-list a li {
+    transition: transform .3s ease-in;
+}
+
+div.content .streaming-list img {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0.8rem;
+}
+
+div.content ul.streaming-list img:hover {
+    transform: scale(1.1)
+}
+
+section#channel {
+    color: white;
+    background-image: linear-gradient(90deg, $secondary-color 25%, $primary-color 50.52%);
+    padding-top: 0.4rem;
+    border-radius: 10rem;
+}
+
+section#channel div.content {
+    background-color: $section-color;
+    padding: 3.2rem;
+    padding-top: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+div.content h2 {
+    letter-spacing: -0.4rem;
+}
+
+div.content p {
+    letter-spacing: -0.2rem;
+    color: $paragraph-color;
+}
+
+div.content ul.channel-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+div.content ul.channel-list a li {
+    transition: transform .3s ease-in;
+}
+
+div.content .channel-list img {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0.8rem;
+}
+
+div.content ul.channel-list img:hover {
+    transform: scale(1.1)
+}
+
+section#social {
+    color: white;
+    background-image: linear-gradient(90deg, $secondary-color 25%, $primary-color 50.52%);
+    padding-top: 0.4rem;
+    border-radius: 10rem;
+}
+
+section#social div.content {
+    background-color: $section-color;
+    padding: 3.2rem;
+    padding-top: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+div.content h2 {
+    letter-spacing: -0.4rem;
+}
+
+div.content p {
+    letter-spacing: -0.2rem;
+    color: $paragraph-color;
+}
+
+div.content ul.social-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+div.content ul.social-list a li {
+    transition: transform .3s ease-in;
+}
+
+div.content .social-list img {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0.8rem;
+}
+
+div.content ul.social-list img:hover {
+    transform: scale(1.1)
+}
+
+footer {
+    text-align: center;
+    background-color: $section-color;
+    color: white;
+    padding-block: 6rem;
 }
